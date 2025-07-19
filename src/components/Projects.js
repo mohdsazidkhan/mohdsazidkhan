@@ -55,21 +55,21 @@ export default function Projects() {
       className="h-screen px-6 py-20 bg-gradient-to-br from-blue-100 to-indigo-200 dark:from-blue-900 dark:to-indigo-800 transition-colors duration-500 flex items-center"
     >
       <div className="max-w-6xl mx-auto w-full">
-        <h2 className="text-4xl font-bold text-gray-900 dark:text-white text-center mb-10">
-          Top Featured Projects
+        <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-white text-center mb-10">
+          Featured Projects
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-2 md:gap-6">
           {projects.map((project, idx) => (
             <a
               key={idx}
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white dark:bg-gray-900 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 flex flex-col justify-between hover:scale-[1.01]"
+              className="bg-white dark:bg-gray-900 p-2 md:p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 flex flex-col justify-between hover:scale-[1.01]"
             >
               <div>
-                <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-2">
+                <h3 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-white mb-2">
                   {project.name}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">

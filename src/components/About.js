@@ -29,10 +29,8 @@ export default function About() {
       <div ref={innerRef} className="sticky top-0 h-screen flex items-center justify-center">
         <div className="text-center px-6 max-w-3xl">
           <FaUserTie className="text-5xl mx-auto mb-6 text-indigo-800 dark:text-yellow-400 animate-bounce" />
-          <h2 className="text-4xl font-bold mb-4 text-gray-900 dark:text-white">About Me</h2>
-          <p className="text-2xl leading-relaxed text-gray-700 dark:text-gray-300">
-            I'm <span className="font-semibold text-blue-600 dark:text-yellow-300">Mohd Sazid Khan</span>, a passionate Software Engineer specializing in full-stack development using the MERN stack.
-            <br /><br />
+          <h2 className="text-2xl md:text-2xl font-bold mb-4 text-gray-900 dark:text-white">About Me</h2>
+          <p className="text-lg md:text-2xl leading-relaxed text-gray-700 dark:text-gray-300">
             I’m a seasoned Front-End Developer with a strong foundation in HTML, CSS, JavaScript, and expertise in React, Next.js, Tailwind CSS, Bootstrap, Ant Design, Chakra UI, and Syncfusion UI. My backend knowledge includes Node.js, Express.js, MongoDB, MySQL, and PHP — making me well-equipped to build full-stack solutions with a design-first approach.
           </p>
         </div>
