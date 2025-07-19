@@ -3,7 +3,7 @@ Hello! I'm Mohd Sazid Khan, a passionate and innovative engineer with a deep lov
 
 Over time, I’ve developed a strong foundation in full-stack development, API design, and UI/UX principles. My focus has always been on writing clean, maintainable code and delivering efficient, real-world applications. Whether it's a startup idea, a client project, or one of my own ventures, I bring the same level of dedication and attention to detail.
 
-I’m the creator of SUBG QUIZ – Play Quizzes. Win Coins. Convert to Cash!, a fun and engaging quiz platform tailored for all age groups. From kids and students to working professionals and retirees, SUBG QUIZ is designed to challenge minds while providing a rewarding experience. It started as a coin-based quiz app and has now evolved into a subscription-based model with multi-level quizzes, where users can enjoy both free and premium content.
+I’m the creator of SUBG QUIZ – Play Quizzes, Level Up, Win Prizes. Convert to Cash!, a fun and engaging quiz platform tailored for all age groups. From kids and students to working professionals and retirees, SUBG QUIZ is designed to challenge minds while providing a rewarding experience. It started as a coin-based quiz app and has now evolved into a subscription-based model with multi-level quizzes, where users can enjoy both free and premium content.
 
 I’m also the developer behind Kuexa, a platform tailored for salons, helping service providers manage appointments, track performance, and improve customer experience through smart digital solutions. Whether it's customer-facing UI or backend systems, I’ve worked on every aspect of these products from scratch.
 
