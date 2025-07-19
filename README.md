@@ -7,7 +7,7 @@ I’m the creator of SUBG QUIZ – Play Quizzes, Level Up, Win Prizes. Convert t
 
 I’m also the developer behind Kuexa, a platform tailored for salons, helping service providers manage appointments, track performance, and improve customer experience through smart digital solutions. Whether it's customer-facing UI or backend systems, I’ve worked on every aspect of these products from scratch.
 
-In addition to my technical skills, I believe in clear communication and continuous learning. I stay updated with the latest trends in web technologies, UI frameworks, and AI-powered tools like Kaiber, Pika, and GPT-based systems, which I actively explore to push creative boundaries—especially in my storytelling and kids animation projects like “ChuChu Bandar aur Jadui Chappal.”
+In addition to my technical skills, I believe in clear communication and continuous learning. I stay updated with the latest trends in web technologies, UI frameworks, and AI-powered tools like Kaiber, Pika, and GPT-based systems, which I actively explore to push creative boundaries—especially in my storytelling and kids animation projects like “SofuTales- Kids Stories.”
 
 I’m currently building my personal portfolio and brand, where I showcase my projects and experiments in modern web design. I enjoy creating responsive, animated, and dark/light mode–compatible websites that reflect both function and aesthetics. My design philosophy is heavily inspired by minimalism, gradient visuals, and Apple-style animations that captivate users from the first interaction.
 
