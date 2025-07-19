@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+About Me
+Hello! I'm Mohd Sazid Khan, a passionate and innovative engineer with a deep love for building impactful digital products. With years of hands-on experience in web and app development, I specialize in crafting modern, scalable, and user-friendly solutions using technologies like React.js, Node.js, Express, MongoDB, and Tailwind CSS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Over time, I’ve developed a strong foundation in full-stack development, API design, and UI/UX principles. My focus has always been on writing clean, maintainable code and delivering efficient, real-world applications. Whether it's a startup idea, a client project, or one of my own ventures, I bring the same level of dedication and attention to detail.
 
-## Available Scripts
+I’m the creator of SUBG QUIZ – Play Quizzes. Win Coins. Convert to Cash!, a fun and engaging quiz platform tailored for all age groups. From kids and students to working professionals and retirees, SUBG QUIZ is designed to challenge minds while providing a rewarding experience. It started as a coin-based quiz app and has now evolved into a subscription-based model with multi-level quizzes, where users can enjoy both free and premium content.
 
-In the project directory, you can run:
+I’m also the developer behind Kuexa, a platform tailored for salons, helping service providers manage appointments, track performance, and improve customer experience through smart digital solutions. Whether it's customer-facing UI or backend systems, I’ve worked on every aspect of these products from scratch.
 
-### `npm start`
+In addition to my technical skills, I believe in clear communication and continuous learning. I stay updated with the latest trends in web technologies, UI frameworks, and AI-powered tools like Kaiber, Pika, and GPT-based systems, which I actively explore to push creative boundaries—especially in my storytelling and kids animation projects like “ChuChu Bandar aur Jadui Chappal.”
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I’m currently building my personal portfolio and brand, where I showcase my projects and experiments in modern web design. I enjoy creating responsive, animated, and dark/light mode–compatible websites that reflect both function and aesthetics. My design philosophy is heavily inspired by minimalism, gradient visuals, and Apple-style animations that captivate users from the first interaction.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Beyond code, I’m curious, focused, and driven by the idea of creating something meaningful. Every project I take on is an opportunity to solve real-world problems while learning something new. I'm always open to collaborating with like-minded creatives, startups, or companies aiming to bring their vision to life.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks for stopping by! Feel free to check out my work, connect with me, or drop a message—let’s build something amazing together.
