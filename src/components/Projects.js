@@ -1,35 +1,87 @@
 // src/components/Projects.js
-import { FaProjectDiagram } from 'react-icons/fa';
+import { useEffect, useRef } from "react";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    title: "SUBG QUIZ",
-    description: "A fun, level-based quiz platform for all age groups. Built with MERN stack.",
-    link: "#"
+    name: "SUBG Quiz",
+    link: "https://subgquiz.com",
+    desc: "A quiz platform with levels, subscription models, and manual result control.",
   },
   {
-    title: "AI Video Generator",
-    description: "An app that converts text to stunning AI-generated 3D stories.",
-    link: "#"
-  }
+    name: "Kuexa",
+    link: "https://kuexa.com",
+    desc: "A modern platform for salon booking and management solutions.",
+  },
+  {
+    name: "AppNEA",
+    link: "https://www.app-nea.com",
+    desc: "Healthcare and therapy assistance platform for sleep apnea patients.",
+  },
+  {
+    name: "ShipFinex",
+    link: "https://www.shipfinex.com",
+    desc: "Decentralized maritime investment platform powered by Web3.",
+  },
 ];
 
-export default function Projects() {
-  return (
-    <section className="min-h-screen py-20 px-4 bg-gray-100 dark:bg-gray-900 transition-colors duration-500">
-      <div className="text-center mb-12">
-        <FaProjectDiagram className="text-5xl mx-auto mb-4 text-gray-800 dark:text-white" />
-        <h2 className="text-4xl font-bold text-gray-900 dark:text-white">Projects</h2>
-      </div>
 
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-        {projects.map((project, index) => (
-          <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg transition hover:scale-105 duration-300">
-            <h3 className="text-2xl font-semibold text-gray-900 dark:text-yellow-300">{project.title}</h3>
-            <p className="text-gray-700 dark:text-gray-300 my-2">{project.description}</p>
-            <a href={project.link} className="text-blue-500 dark:text-yellow-400 hover:underline">View Project</a>
-          </div>
-        ))}
+export default function Projects() {
+  const ref = useRef();
+
+  useEffect(() => {
+    gsap.fromTo(
+      ref.current,
+      { y: 50, opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 1,
+        scrollTrigger: {
+          trigger: ref.current,
+          start: "top 80%",
+        },
+      }
+    );
+  }, []);
+
+  return (
+    <section
+      ref={ref}
+      className="h-screen px-6 py-20 bg-gradient-to-br from-blue-100 to-indigo-200 dark:from-blue-900 dark:to-indigo-800 transition-colors duration-500 flex items-center"
+    >
+      <div className="max-w-6xl mx-auto w-full">
+        <h2 className="text-4xl font-bold text-gray-900 dark:text-white text-center mb-10">
+          Top Featured Projects
+        </h2>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          {projects.map((project, idx) => (
+            <a
+              key={idx}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white dark:bg-gray-900 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 flex flex-col justify-between hover:scale-[1.01]"
+            >
+              <div>
+                <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-2">
+                  {project.name}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                  {project.desc}
+                </p>
+              </div>
+              <span className="text-blue-600 dark:text-yellow-300 flex items-center gap-1 text-sm font-medium mt-auto">
+                Visit Site <FaExternalLinkAlt />
+              </span>
+            </a>
+          ))}
+        </div>
       </div>
     </section>
   );
