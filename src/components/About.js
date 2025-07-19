@@ -33,7 +33,7 @@ export default function About() {
           <p className="text-2xl leading-relaxed text-gray-700 dark:text-gray-300">
             I'm <span className="font-semibold text-blue-600 dark:text-yellow-300">Mohd Sazid Khan</span>, a passionate Software Engineer specializing in full-stack development using the MERN stack.
             <br /><br />
-            I love transforming complex ideas into engaging, accessible, and user-first interfaces — with a performance-focused approach.
+            I’m a seasoned Front-End Developer with a strong foundation in HTML, CSS, JavaScript, and expertise in React, Next.js, Tailwind CSS, Bootstrap, Ant Design, Chakra UI, and Syncfusion UI. My backend knowledge includes Node.js, Express.js, MongoDB, MySQL, and PHP — making me well-equipped to build full-stack solutions with a design-first approach.
           </p>
         </div>
       </div>
